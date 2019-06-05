@@ -478,9 +478,9 @@ body {
     text-align: right;
     right: 0px;
     top: 50px;
-    height: 70px;
+    height: 100px;
     width: auto;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 0.8;
     transition-duration: 0.2s;
     padding: none;
