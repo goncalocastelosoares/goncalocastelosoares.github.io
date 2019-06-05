@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gonçalo Castelo Soares</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="images/logoicon.png">
+    
+    
+</head>
+
+<body>
+    
+        <video id="backgroundVideo4" autoplay muted preload loop>
+                <source src="videos/inicial.mp4" type="video/mp4">
+        </video> 
+    
+        <video id="backgroundVideo1" muted preload loop>
+                <source src="videos/video1.mp4" type="video/mp4">
+        </video>  
+ 
+
+        <video id="backgroundVideo2"  muted preload loop>
+                <source src="videos/video2.mp4" type="video/mp4">
+        </video> 
+    
+
+    
+         
+        <div id="topbar">
+            <a href="#"><img id="botaohome"  src="images/logo.svg"></a>
+              
+                <ul>
+                    <li>
+                        <a href="about_pt.html" class="contact">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/goncalocastelosoares"><img class="icon face" src="images/facebook-logo.svg"></a></li>
+                    <li>
+                        <a href="https://www.instagram.com/goncalo_castelo_soares/"> <img class="icon ig" src="images/instagram-logo.svg"></a>
+                    </li>
+                   <li>
+                    <div class="icon burger" onclick="myFunction()">
+                           <div class="bar"></div>
+                           <div class="bar ba"></div>
+                           <div class="bar ba"></div>
+                        </div>
+                            <ul id="menu_burger">
+                                <li class="menu_burger_item"><a class="menu_burger_item"  href="index.html">HOME</a></li><br>
+                                <li class="menu_burger_item"><a class="menu_burger_item" href="musicvideos_pt.html">TELEDISCOS</a></li><br>
+                                
+                                <li class="menu_burger_item"><a class="menu_burger_item" href="promotional_pt.html">PUBLICIDADE</a></li><br>
+                                
+                                <li class="menu_burger_item"><a class="menu_burger_item" href="photography_pt.html">FOTOGRAFIA</a></li><br>
+                                
+                                <li class="menu_burger_item"><a class="menu_burger_item" href="podcast_pt.html">PODCAST</a></li><br>
+  
+                        </ul>
+                   </li>
+                    
+                </ul>
+              
+               
+        </div>
+    
+    <!-- MENU DO MEIO E TRIGGERS DOS VIDEOS -->
+    
+        <div id="contentor_menu">
+        <p>  <a class="item_main0"  href="showreel.html">SHOWREEL</a></p>
+
+          <p>  <a onmouseover="playVideo(2)" onmouseout="pauseVideo(2)" onmouseover="myFunction()"; class="item_main1"  href="musicvideos_pt.html">TELEDISCOS</a></p>
+            
+          <p>  <a onmouseover="playVideo(3)" onmouseout="pauseVideo(3)" class="item_main2"  href="promotional_pt.html">PUBLICIDADE</a></p>
+            
+          <p>  <a class="item_main3"  href="photography_pt.html">FOTOGRAFIA</a></p>
+            
+          <p>  <a class="item_main4" href="podcast_pt.html">PODCAST</a> </p>
+        
+         <p>  <a class="item_main5" href="shortfilms_pt.html">NÃO É SUPOSTO ENTRARES AQUI</a> </p>
+            
+        </div>
+    
+    
+    
+ 
+       
+    
+    <div class="footer"><div id="idioma"><a id="pt_alt" href="#">PT</a> - <a id="eng_alt" href="index.html">ENG</a></div><div id="copyright">© GONÇALO CASTELO SOARES 2019</div></div>
+          
+ 
+</body>
+    
+    <script>
+       
+    function playVideo(i) {
+	var id = Number(i)-1;
+	var videos = document.getElementsByTagName("video");
+	videos[id].style.display="inline";
+	videos[id].play();
+    
+}
+
+function pauseVideo(i) {
+	var id = Number(i)-1;
+	var videos = document.getElementsByTagName("video");
+	videos[id].style.display="none";
+	videos[id].pause();
+    
+}
+
+function myFunction() {
+  document.getElementByclass("item_main2").removeAttribute("color"); 
+}
+        
+         function myFunction() {
+              var x = document.getElementById("menu_burger");
+              if (x.style.opacity === "1") {
+                x.style.opacity = "0";
+              } else {
+                x.style.opacity = "1"
+              }
+            }
+
+        
+     
+    </script>
+
+</html>
