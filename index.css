@@ -14,7 +14,7 @@ html {
 
 body {
     width: 100%;
-    height: 98%;
+    height: 97%;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -190,14 +190,18 @@ ul:hover > li:not(:hover) {
     
 }
 
+.item_main2 {
+    line-height: 1.1;
+}
+
 .item_main5 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
-    line-height: 90px;
+    font-size: 24px;
+    line-height: 80px;
     color: #3B3A3E;
-    opacity: 0;
+    opacity: 1;
     
 }
 
