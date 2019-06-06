@@ -201,7 +201,7 @@ ul:hover > li:not(:hover) {
     font-size: 24px;
     line-height: 80px;
     color: #3B3A3E;
-    opacity: 1;
+    opacity: 0;
     
 }
 
@@ -404,7 +404,7 @@ body {
     display: flex;
     flex-direction: column;
     width:80%;
-    height:
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -423,17 +423,21 @@ body {
 
 }
     
+
+
 .item_main5 {
-    text-align: center;
+     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1;
     color: #3B3A3E;
     opacity: 0;
     
+    
 }
 
+    
 .item_main5:hover {
     opacity: 1;
     
@@ -450,7 +454,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     pointer-events: all;
 }
   
@@ -479,7 +483,7 @@ body {
     display: flex;
     flex-direction: column;
     width:80%;
-    height:50%;
+    height:55%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -496,7 +500,37 @@ body {
     line-height: 24px;
     color: #3B3A3E;
     
- 
+    
+}
+    
+        
+    
+
+.item_main0, .item_main1, .item_main2, .item_main3, .item_main4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    line-height: 24px;
+    color: #3B3A3E;
+
+}
+    
+.item_main4 {
+    margin-bottom: auto;
+        
+}
+    
+
+
+.item_main5 {
+     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: #3B3A3E;
+    opacity: 1;
+    
     
 }
     
