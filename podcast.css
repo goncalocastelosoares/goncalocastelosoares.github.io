@@ -35,7 +35,7 @@ a {
     display: flex;
     flex-direction: row;
     position: fixed;
-    width: 98.5%;
+    width: 100%;
     padding-top: 30px;
     left: 20px;
     right: auto;
@@ -71,7 +71,8 @@ a {
     position: absolute;
     width: 25px;
     height: auto;
-    left: auto; bottom: auto; 
+    left: auto;
+    bottom: auto; 
 }
 
 .face {
@@ -398,7 +399,7 @@ body {
     pointer-events: auto;
 }
 
-
+    
     
 #topbar {
     left: 10px;
@@ -474,6 +475,8 @@ body {
     color: #3B3A3E;
     pointer-events: all;
 }
+        
+    
     
     
 #main {
@@ -489,7 +492,7 @@ body {
 #titsub {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     height: 100%;
     padding: 20px;
     padding-right: 40px;
