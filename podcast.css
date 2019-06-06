@@ -30,19 +30,17 @@ a {
 }
 
 
-
 #topbar {
     display: flex;
     flex-direction: row;
     position: fixed;
-    width: 100%;
+    width: 98.5%;
     padding-top: 30px;
     left: 20px;
     right: auto;
     bottom: auto;
     height: 60px;
     z-index: 99;
-    background-color: #F2DFC3;
 }
 
 #botaohome {
@@ -71,8 +69,7 @@ a {
     position: absolute;
     width: 25px;
     height: auto;
-    left: auto;
-    bottom: auto; 
+    left: auto; bottom: auto; 
 }
 
 .face {
@@ -115,9 +112,10 @@ a {
     font-size: 24px;
     line-height: 0.8;
     transition-duration: 0.2s;
+    pointer-events: none;
     padding: 20px;
     padding-right: none;
-
+    background-color: #F2DFC3;
 }
 
 .menu_burger_item {
