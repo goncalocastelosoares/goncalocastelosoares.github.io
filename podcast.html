@@ -83,20 +83,15 @@ Meanwhile, why don't you check out some Music Videos? What? You've watched them 
     
     <script>
        
- 
-function myFunction() {
-  document.getElementByclass("item_main2").removeAttribute("color"); 
-}
-        
          function myFunction() {
               var x = document.getElementById("menu_burger");
-              if (x.style.opacity === "1") {
-                x.style.opacity = "0";
+              if (x.style.display === "block") {
+                x.style.display = "none";
               } else {
-                x.style.opacity = "1";
+                x.style.display = "block";
               }
             }
-
+        
         
      
     </script>
