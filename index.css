@@ -243,8 +243,8 @@ ul:hover > li:not(:hover) {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 56px;
-    line-height: 90px;
+    font-size: 6.5vh;
+    line-height: 7vh;
     color: #3B3A3E;
     
 }
@@ -257,8 +257,8 @@ ul:hover > li:not(:hover) {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 24px;
-    line-height: 80px;
+    font-size: 4vh;
+    line-height: 7vh;
     color: #3B3A3E;
     opacity: 0;
     

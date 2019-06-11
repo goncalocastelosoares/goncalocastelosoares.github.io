@@ -189,15 +189,16 @@ ul:hover > li:not(:hover) {
 
 
 #lista {
-    font-size: 16px;
+    font-size: 2vh;
     text-align: right;
     margin-left: auto;
-    margin-top: 12px;
+    margin-top: 1.5vh;
     color: #3B3A3E;
     width: auto;
     line-height: 1;
     text-decoration: none;
     pointer-events: all;
+
 }
 
 #lista:hover {
